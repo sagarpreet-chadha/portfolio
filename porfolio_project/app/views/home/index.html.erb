@@ -10,7 +10,7 @@
 	<!-- This pen isn't a fan of small view heights, check it out in  fullpage view for optimal viewing	 -->
 	<div class="intro-container">
 		<div class="typewriter">
-  			<h1><span style="color: orange ;">Sagarpreet Chadha</span></h1>
+  			<h1><span style="color: orange ;">I'm Sagarpreet Chadha .</span></h1>
 		</div>
 		<h1>Delhi Technological<br> University </h1>
 
@@ -32,10 +32,18 @@
 			  <a>EDUCATION</a>
 			  <a>ACHIEVEMENTS</a>
 			  <a>PROJECTS</a>
-			  <a>CONTACT</a>
+			  <a class="button" id="contact">CONTACT</a>
 		</div>
+		<div class='wrap'>
+  				<div class='content'>
+ 		   			<i class="fa fa-twitter-square fa-3x" aria-hidden="true" style="background-color: aqua;"></i>
+ 		   			&nbsp; &nbsp; 
+ 		   			<i class="fa fa-github-square fa-3x" aria-hidden="true" style="background-color: black;"></i>
+ 		   			&nbsp; &nbsp; 
+ 		   			<i class="fa fa-facebook-square fa-3x" aria-hidden="true" style="background-color: #4267b2;"></i>
+				</div>
+			</div>
 
-	
 	</div>
 	<script>
 		$("#home_button").click(
@@ -44,6 +52,11 @@
        			location.reload() ;
     	}
 		);
+
+		$('#contact').on('click', function(){
+ 			 $('.wrap, a').toggleClass('active');
+  			return false;
+		});
 	</script>
 <!-- Social -->
 
