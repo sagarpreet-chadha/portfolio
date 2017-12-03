@@ -26,21 +26,69 @@
 		</div>
 	</div>
 	<div class="sky-container">
-	
+		<div style="padding-left: 97%;"> 
+		<a id="home_button" title="Back" style="color:red ;" href=""><strong>X</strong></a>
+		</div>
 		<div class="container teal borderYtoX">
- 			  <a id="home_button">HOME</a>
-			  <a>EDUCATION</a>
-			  <a>ACHIEVEMENTS</a>
-			  <a>PROJECTS</a>
+ 			  
+			  <a class="button" id="education">EDUCATION</a>
+			  <a class="button" id="achievement">ACHIEVEMENTS</a>
+			  <a class="button" id="projects">PROJECTS</a>
 			  <a class="button" id="contact">CONTACT</a>
 		</div>
 		<div class='wrap'>
   				<div class='content'>
- 		   			<i class="fa fa-twitter-square fa-3x" aria-hidden="true" style="background-color: aqua;"></i>
+  					&nbsp; &nbsp; &nbsp; &nbsp; 
+ 		   			<a href="https://twitter.com/Sagarpreet_07" ><i class="fa fa-twitter-square fa-3x" aria-hidden="true" style="color: whitesmoke ; background-color: aqua;"></i></a>
  		   			&nbsp; &nbsp; 
- 		   			<i class="fa fa-github-square fa-3x" aria-hidden="true" style="background-color: black;"></i>
+ 		   			<a href="https://github.com/sagarpreet-chadha"><i class="fa fa-github-square fa-3x" aria-hidden="true" style="background-color: black;color: whitesmoke ;"></i></a>
  		   			&nbsp; &nbsp; 
- 		   			<i class="fa fa-facebook-square fa-3x" aria-hidden="true" style="background-color: #4267b2;"></i>
+ 		   			<a href="https://www.facebook.com/sagarpreet.chadha"><i class="fa fa-facebook-square fa-3x" aria-hidden="true" style="color: whitesmoke ;background-color: #4267b2;"></i></a>
+ 		   			<br>
+ 		   			<br>
+ 		   			<strong style="color: black;">chadha.sagarpreet97@gmail.com</strong>
+				</div>
+		</div>
+
+		<div class='wrap1'>
+  				<div class='content1'>
+  					<p style="color: black ;">
+  						<strong>Delhi Technological University India - 2015-present</strong><br>
+Bachelor of Technology<br>
+Course in Information Technology ( IT ) CGPA: 8.56<br><br><br>
+<strong>Lancers Convent School , India</strong><br> Passed with 95.6 % in CBSE (year - 2015)<br>
+
+  					</p>
+				</div>
+			</div>
+
+			<div class='wrap2'>
+  				<div class='content2'>
+  					<p style="color: black ;">
+  						
+1.) <strong>Departmental Rank 3</strong> in College ( 2nd semester )<br>
+2.) CodeChef May <strong>Cook-Off</strong> 2017 : <strong>Global Rank 180</strong> .<br>
+3.) <strong>World Food Hackathon</strong>(organised by Government of India)Position in <strong>TOP 10</strong><br>
+4.) HACK-IIITD Hackathon ( organised by IIIT-DELHI ) : <strong>Position : 15</strong><br>
+5.) Position in Top 10 in HACK-DTU Hackathon ( organised in DTU , Delhi) .<br>
+6.) Elected <strong>Class Representative</strong> in College , 2nd year .<br>
+7.) Successfully completed Data structures and Algorithms , Android Development Course and Alchemy (Web Development using Ruby on Rails) course from Coding Ninjas , India .
+<br>
+  					</p>
+				</div>
+			</div>
+
+			<div class='wrap3'>
+  				<div class='content3'>
+  					<p style="color: black ;">
+<strong>DCE Speaks Up (Android Application)</strong><br>
+An Android app helping students to get latest important information / circulars related to college . Use of API to get dates of all Competitive Programming contests . Available on Google Play Store .
+<br> <a href="https://play.google.com/store/apps/details?id=thuglife.dcespeaksup&hl=en">https://play.google.com/store/apps/details?id=thuglife.dcespeaksup&hl=en</a><br><br>
+<strong>DTU MESS (Android Application)</strong><br>
+An android app to get the menu of the day in various canteens across college . Available on Google Play Store with approximately 1000 downloads . <br><a href="https://play.google.com/store/apps/details?id=chadhasagarpreet.dtumess&hl=en">https://play.google.com/store/apps/details?id=chadhasagarpreet.dtumess&hl=en</a><br><br>
+<strong>OTHER PROJECTS :</strong> <a href="https://github.com/sagarpreet-chadha">https://github.com/sagarpreet-chadha</a>
+<br>
+  					</p>
 				</div>
 			</div>
 
@@ -55,6 +103,20 @@
 
 		$('#contact').on('click', function(){
  			 $('.wrap, a').toggleClass('active');
+  			return false;
+		});
+
+		$('#education').on('click', function(){
+ 			 $('.wrap1, a').toggleClass('active');
+  			return false;
+		});
+
+		$('#achievement').on('click', function(){
+ 			 $('.wrap2, a').toggleClass('active');
+  			return false;
+		});
+		$('#projects').on('click', function(){
+ 			 $('.wrap3, a').toggleClass('active');
   			return false;
 		});
 	</script>
