@@ -687,8 +687,11 @@ An android app to get the menu of the day in various canteens across college . A
 	</script>
 <!-- Social -->
 
-
+<script type='text/javascript' > 
+  var THREE, $, TweenLite, Power3, TimelineMax ;
+</script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/88/three.js"> </script>
+<script src="three.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.0/TweenMax.min.js"></script>
@@ -697,7 +700,7 @@ An android app to get the menu of the day in various canteens across college . A
 <script>
 	"use strict";
 /* globals THREE, $, TweenLite, Power3, TimelineMax  */
-
+var THREE ;
 let camera, scene, renderer;
 let plane;
 let raycaster = new THREE.Raycaster();
